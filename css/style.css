@@ -102,7 +102,7 @@ padding:10px;
 color: white;
 cursor:pointer;
 transition:0.3s linear all; 
-font-size: 1rem;
+font-size: 0.9rem;
 position:relative;
 font-family: Moon;
 /*text-align: left;*/
@@ -318,13 +318,13 @@ font-size: 1.3rem;
 
 
 }
-@media(max-width: 830px){
+@media(max-width: 880px){
     .poster-wrapper{
 
     width:40%;
   }
 .poster-wrapper h2{
-font-size: 1.1rem;
+font-size: 1rem;
 
 }
 
@@ -348,7 +348,7 @@ font-size: 0.9rem;
 
 
 }
-@media(max-width: 530px){
+@media(max-width: 600px){
 .poster-wrapper h2{
 font-size: 1.5rem;
 
