@@ -1,0 +1,44 @@
+<html>
+<head>
+  <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link async href="http://fonts.googleapis.com/css?family=Audiowide" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+</head>
+<body>
+  <nav>
+  <ul>
+    <a href="index.html" ><li>Home</li></a> 
+    <!-- target _blank open link in a new tab ,  target="_blank"-->
+    <a href="ticket.html"><li>Ticket</li></a>
+    <a href="about.html"><li>About Us</li></a>
+    <a href="contact.html"><li>Contact Us</li></a>
+  </ul>
+</nav>
+<h1>Contact Us</h1>
+  <form action="" class="contact-form">
+    <input name="username" type="text" placeholder="name" required>
+    <br> <!-- have to fill out -->
+    <input name="email"type="email" placeholder="email" required>
+    <br>
+   
+    
+    <select name="type">
+      <option value="inquiry">Genearl Inquiry</option>
+      <option value="career">Job Opportunity</option>
+      <option value="feedback">User Feedback</option>
+    </select><br>
+<!--     <div class="radio-button"> -->
+   <input type="radio" id="male" name="gender" value="male" checked>
+   <label for="gender">Male</label><br>
+   <!-- </div> -->
+    <!-- <div class="radio-button"> -->
+      <input type="radio" id="female" name="gender" value="female" checked>
+      <label for="gender">Female</label><br>
+      <!-- </div> -->
+    <textarea name="message"cols="40" rows="10" placeholder="messages"></textarea><br>
+    <button class="btn-blue" type="submit">Submit</button>
+  </form>
+</body>
+</html>
