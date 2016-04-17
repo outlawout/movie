@@ -102,7 +102,7 @@ padding:10px;
 color: white;
 cursor:pointer;
 transition:0.3s linear all; 
-font-size: 1rem;
+font-size: 0.9rem;
 position:relative;
 font-family: Moon;
 /*text-align: left;*/
@@ -303,5 +303,68 @@ text-align: center;
 
 
 }
+
+@media(max-width: 960px){
+    .poster-wrapper{
+
+    width:30%;
+  }
+.poster-wrapper h2{
+font-size: 1.3rem;
+
+}
+
+
+
+
+}
+@media(max-width: 880px){
+    .poster-wrapper{
+
+    width:40%;
+  }
+.poster-wrapper h2{
+font-size: 1rem;
+
+}
+
+
+
+
+}
+
+@media(max-width: 700px){
+  .poster-wrapper{
+
+    width:40%;
+  }
+.poster-wrapper h2{
+font-size: 0.9rem;
+
+}
+
+
+
+
+
+}
+@media(max-width: 600px){
+.poster-wrapper h2{
+font-size: 1.5rem;
+
+
+}
+
+.poster-wrapper {
+width: 100%;
+
+}
+
+
+}
+
+
+
+
 
 /**/
