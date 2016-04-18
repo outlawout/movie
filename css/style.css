@@ -286,7 +286,8 @@ footer ul li{
 .aboutus-wrapper{
   display:inline-block;
   width:80%;
-  border:5px solid rgba(197,179,88,0.5);
+  border:2px solid rgba(255,50,30,0.3);
+  border-radius: 5%;
   /*float:left;*/
   margin-left: 10%;
   /*margin-right: 1rem;*/
@@ -368,6 +369,13 @@ background-color: rgba(255,50,30,0.5);
 .table-hover>tbody>tr:hover {
   background-color: rgba(255,255,255,0.2);
 }
+
+
+.carousel-indicators .active {
+    
+    background-color: rgba(255,50,30,0.8);
+}
+
 
 
 
